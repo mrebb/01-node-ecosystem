@@ -48,15 +48,15 @@ var jumpToCode = (function init () {
 
   return function jump(event) {
     switch (event.which) {
-      case 78: // n
-      case 74: // j
-        goToNext();
-        break;
-      case 66: // b
-      case 75: // k
-      case 80: // p
-        goToPrevious();
-        break;
+    case 78: // n
+    case 74: // j
+      goToNext();
+      break;
+    case 66: // b
+    case 75: // k
+    case 80: // p
+      goToPrevious();
+      break;
     }
   };
 }());
